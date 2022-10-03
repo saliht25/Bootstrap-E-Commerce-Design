@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap E-Commerce Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <div class="bg-primary d-flex align-items-center " style="height: 50px; padding-left: 50px;">
+            <h2 class="text-white">E-COMMERCE</h2>
+            <div class="row justify-content-end">
+                <div class="col nav-group  ">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <div class="dropdown">
+                            <div class="text-info dropdown-toggle" type="text" data-toggle="dropdown">Categories
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Electronics</a></li>
+                                <li><a href="#">Clothes</a></li>
+                                <li><a href="#">Books</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item bg-primary text-white">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End  -->
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="photo-1546432507-bd9e20b3c78b.jpg" class="" alt="Laptop" width="100%" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="Use-Laptops-Step-22.jpg" class="" alt="Laptop" width="100%" height="500">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel End -->
+        <!-- Sidebar starts -->
+        <div class="container-body ms-5 d-flex ">
+            <div class="row">
+                <h1 class="text-danger  mt-3 mb-3 fs-1 ">ALL CATEGORIES</h1>
+                <hr>
+            </div>
+        </div>
+        <aside class="slidebar col-md-2 mb-3 ">
+            <div class="row">
+                <ul class="list-group " width="20%" height="50">
+                    <h1>Ram</h1>
+                    <li class=" list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">8 GB</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">16 GB</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">32 GB</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-2">
+                <ul class="list-group " width="20%" height="50">
+                    <h1>Brand</h1>
+                    <li class=" list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">Casper</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">Apple</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">Toshiba</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-2">
+
+                <ul class="list-group " width="20%" height="50">
+                    <h1>Type</h1>
+                    <li class=" list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">Intel Core i7</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">Intel Core i5</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">Intel Core i3</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-2 ">
+                <ul class="list-group " width="20%" height="50">
+                    <h1>Price</h1>
+                    <li class=" list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">500-700</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">700-900</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">900-1500</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-2">
+                <ul class="list-group  width=" 20%" height="50"">
+                            <h1>Screen</h1>
+                            <li class=" list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="form-check-label" for="firstCheckbox">14 in</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">15.6 in</label>
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">17.3 in</label>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Sidebar End-->
+        <!-- Figure Starts-->
+        <figure class="d-flex flex-wrap col-md-10 mt-5">
+            <div class="row">
+                <div class="card" style="width: 38rem;">
+                    <img class="card-img-top" src="718ETwvLVOL._SL1500_.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h1 class="card-title ">Lenovo E15 Amd Ryzen5</h1>
+                        <p class="card-text">Some quick example text to ...</p>
+                    </div>
+                    <ul class="list-group text-center ">
+                        <s>
+                            <li class="list-group-item fs-2 text-danger">1599</li>
+                        </s>
+                    </ul>
+                    <ul class="list-group text-center">
+                        <li class="list-group-item fs-2">1399</li>
+                    </ul>
+                    <div class="card-body ">
+                        <div class="container mt-3 d-grid col-3 ">
+                            <button type="button" class="btn btn-primary mx-auto fs-2" data-bs-toggle="modal"
+                                data-bs-target="#myModal"><i class="bi bi-cart fs-2"></i>
+                                Add to Card
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h1 class="modal-title">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body fs-2">
+                                        There are 2 products in your cart.
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary fs-2"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary fs-2">Payment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 38rem; ">
+                    <img class="card-img-top" src="718ETwvLVOL._SL1500_.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h1 class="card-title ">Lenovo E15 Amd Ryzen5</h1>
+                        <p class="card-text">Some quick example text to ...</p>
+                    </div>
+                    <ul class="list-group text-center ">
+                        <s>
+                            <li class="list-group-item fs-2 text-danger">1599</li>
+                        </s>
+                    </ul>
+                    <ul class="list-group text-center">
+                        <li class="list-group-item fs-2">1399</li>
+                    </ul>
+                    <div class="card-body ">
+                        <div class="container mt-3 d-grid col-3 ">
+                            <button type="button" class="btn btn-primary mx-auto fs-2" data-bs-toggle="modal"
+                                data-bs-target="#myModal"><i class="bi bi-cart fs-2"></i>
+                                Add to Card
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h1 class="modal-title">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body fs-2">
+                                        There are 2 products in your cart.
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary fs-2"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary fs-2">Payment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 38rem;">
+                    <img class="card-img-top" src="718ETwvLVOL._SL1500_.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h1 class="card-title ">Lenovo E15 Amd Ryzen5</h1>
+                        <p class="card-text">Some quick example text to ...</p>
+                    </div>
+                    <ul class="list-group text-center ">
+                        <s>
+                            <li class="list-group-item fs-2 text-danger">1599</li>
+                        </s>
+                    </ul>
+                    <ul class="list-group text-center">
+                        <li class="list-group-item fs-2">1399</li>
+                    </ul>
+                    <div class="card-body ">
+                        <div class="container mt-3 d-grid col-3 ">
+                            <button type="button" class="btn btn-primary mx-auto fs-2" data-bs-toggle="modal"
+                                data-bs-target="#myModal"><i class="bi bi-cart fs-2"></i>
+                                Add to Card
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h1 class="modal-title">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body fs-2">
+                                        There are 2 products in your cart.
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary fs-2"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary fs-2">Payment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-5" style="width: 38rem;">
+                    <img class="card-img-top" src="718ETwvLVOL._SL1500_.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h1 class="card-title ">Lenovo E15 Amd Ryzen5</h1>
+                        <p class="card-text">Some quick example text to ...</p>
+                    </div>
+                    <ul class="list-group text-center ">
+                        <s>
+                            <li class="list-group-item fs-2 text-danger">1599</li>
+                        </s>
+                    </ul>
+                    <ul class="list-group text-center">
+                        <li class="list-group-item fs-2">1399</li>
+                    </ul>
+                    <div class="card-body ">
+                        <div class="container mt-3 d-grid col-3 ">
+                            <button type="button" class="btn btn-primary mx-auto fs-2" data-bs-toggle="modal"
+                                data-bs-target="#myModal"><i class="bi bi-cart fs-2"></i>
+                                Add to Card
+                            </button>
+                        </div>
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h1 class="modal-title">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body fs-2">
+                                        There are 2 products in your cart.
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary fs-2"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary fs-2">Payment</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <!-- Figure Ends-->
+    </div>
+    <!-- Footer-->
+    <div class="footer bg-secondary" style="height: 40px;">
+        <p class="text-center fs-2">Copyright @ 2021.</p>
+    </div>
+    <!-- Footer Ends-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
